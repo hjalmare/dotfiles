@@ -12,6 +12,6 @@
 ## Plugins
 
 https://github.com/junegunn/vim-easy-align
-
+https://github.com/guns/vim-sexp
 
 
