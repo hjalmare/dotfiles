@@ -1,3 +1,8 @@
+#!/bin/bash
+
+#Clojure
+stow -t ~ -d ~/.dotfiles/apps/ clojure
+
 #Rust
 sudo apt-get install rust
 
