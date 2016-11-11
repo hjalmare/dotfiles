@@ -12,6 +12,7 @@ call vundle#begin()
   Plugin 'guns/vim-sexp'
   " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
 filetype plugin indent on    " required
 
 
@@ -37,6 +38,11 @@ endif
 "  set undofile
 "  exec 'set undodir=' . g:vimdir . '/.undo'
 "endif
+
+set noswapfile
+set nobackup
+set nowritebackup
+
 
 " ---------------
 " UI
@@ -69,7 +75,6 @@ endif
 " Behaviors
 " ---------------
 syntax enable
-set backup             " Turn on backups
 set autoread           " Automatically reload changes if
                         "detected
 set wildmenu           " Turn on WiLd menu
