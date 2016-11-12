@@ -1,17 +1,20 @@
-
-
 # Vim
 ## Misc
-  Leader is bound to ,
-  LocalLeader is bound to -
+  * Leader is bound to ,
+  * LocalLeader is bound to -
+  * Use 'ga' to exec easy align
+  * <LocalLeader> i wraps current form with parens
 
+## Git
+  * :Gcommit
+  * :Gdiff
+  * :Gstatus
+  * :Gblame
 
-  Use 'ga' to exec easy align
+## Notable Plugins
 
-  <LocalLeader> i wraps current form with parens
-## Plugins
-
-https://github.com/junegunn/vim-easy-align
-https://github.com/guns/vim-sexp
+* https://github.com/junegunn/vim-easy-align
+* https://github.com/guns/vim-sexp
+* https://github.com/tpope/vim-fugitive
 
 
