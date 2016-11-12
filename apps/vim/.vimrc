@@ -12,6 +12,8 @@ call vundle#begin()
   Plugin 'guns/vim-sexp'
   Plugin 'tpope/vim-fireplace'
   Plugin 'tpope/vim-fugitive' 
+  Plugin 'vim-airline/vim-airline'
+  Plugin 'vim-airline/vim-airline-themes'
   " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
