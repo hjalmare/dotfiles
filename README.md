@@ -6,7 +6,9 @@
   * <LocalLeader> i wraps current form with parens
 
 ## Git
+  * :Gw or :Gwrite
   * :Gcommit
+  * :Gpush
   * :Gdiff
   * :Gstatus
   * :Gblame
