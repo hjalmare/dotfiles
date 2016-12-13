@@ -1,5 +1,12 @@
 #!/bin/bash
 
+sudo apt-get install stow
+
+##install vundle if missing
+if [ ! -f apps/vim/.vim/bundle/Vundle.vim/changelog.md ]; then
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.dotfiles/apps/vim/.vim/bundle/Vundle.vim
+fi
+
 #Clojure
 stow -t ~ -d ~/.dotfiles/apps/ clojure
 
