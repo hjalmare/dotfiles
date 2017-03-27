@@ -17,6 +17,10 @@ bindsym $mod+p exec xrandr --output eDP1 --auto --output HDMI1 --off
 bindsym $mod+Shift+p exec xrandr --output eDP1 --auto --output HDMI1 --auto --right-of eDP1
 
 
+bindsym $mod+Shift+l exec gnome-screensaver-command -l && systemctl suspend
+bindsym $mod+l exec gnome-screensaver-command -l
+
+
 #Bg lain
 exec --no-startup-id feh --bg-scale /home/hjalle/Pictures/lain.jpg 
 
