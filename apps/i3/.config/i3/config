@@ -22,7 +22,7 @@ bindsym $mod+l exec gnome-screensaver-command -l
 
 
 #Bg lain
-exec --no-startup-id feh --bg-scale /home/hjalle/Pictures/lain.jpg 
+exec --no-startup-id feh --bg-scale ~/.dotfiles/data/lain.jpg
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
