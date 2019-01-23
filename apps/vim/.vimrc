@@ -16,6 +16,7 @@ call vundle#begin()
   Plugin 'vim-airline/vim-airline-themes'
   Plugin 'rhysd/vim-crystal'
   Plugin 'rust-lang/rust.vim'
+  Plugin 'leafgarland/typescript-vim'
   " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
