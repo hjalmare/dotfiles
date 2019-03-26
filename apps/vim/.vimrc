@@ -15,6 +15,7 @@ call vundle#begin()
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
   Plugin 'rhysd/vim-crystal'
+  Plugin 'rhysd/vim-llvm'
   " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -192,3 +193,4 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
