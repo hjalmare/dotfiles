@@ -16,6 +16,8 @@ call vundle#begin()
   Plugin 'vim-airline/vim-airline-themes'
   Plugin 'rhysd/vim-crystal'
   Plugin 'rhysd/vim-llvm'
+  Plugin 'rust-lang/rust.vim'
+  Plugin 'leafgarland/typescript-vim'
   " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -90,7 +92,7 @@ set hidden             " Change buffer - without saving
 set history=768        " Number of things to remember in
                        " history.
 set confirm            " Enable error files & error jumping.
-set clipboard+=unnamed " Yanks go on clipboard instead.
+set clipboard=unnamedplus " Yanks go on clipboard instead.
 set autowrite          " Writes on make/shell commands
 set timeoutlen=400     " Time to wait for a command (after
                        " leader for example).
@@ -182,7 +184,7 @@ let maplocalleader = "-"
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
-
+"Disable autoformat when pasting
 let &t_SI .= "\<Esc>[?2004h"
 let &t_EI .= "\<Esc>[?2004l"
 
